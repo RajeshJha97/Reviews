@@ -13,7 +13,7 @@ body {
   @apply h-[100vh] w-[100vw] flex flex-col justify-center items-center;
 }
 .review-container {
-  @apply bg-white flex flex-col max-w-[580px] min-w-[580px] p-6 rounded-lg shadow-sm hover:scale-105 duration-500;
+  @apply bg-white flex flex-col max-w-[380px] min-w-[380px] md:max-w-[580px] md:min-w-[580px] p-6 rounded-lg shadow-sm hover:scale-105 duration-500;
 }
 img {
   @apply w-32 h-32 rounded-full border-r-8 border-t-4 border-l-[1px] border-b-[1px] border-blue-600 mb-[10px];
@@ -22,7 +22,7 @@ img {
   @apply flex items-center justify-center relative;
 }
 .img-container h1 {
-  @apply absolute top-2 left-52  rounded-full bg-blue-500 w-8 h-8 flex items-center justify-center;
+  @apply absolute top-2 left-28 md:left-52  rounded-full bg-blue-500 w-8 h-8 flex items-center justify-center;
 }
 
 .title-container {
